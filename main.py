@@ -67,8 +67,11 @@ def update_driver():
     """
     Updates the driver
     """
+    try:
 
-    delete_old_driver()
+        delete_old_driver()
+    except:
+        pass
 
     updater = GetChromedriver()
     updater.go_to_repo()
