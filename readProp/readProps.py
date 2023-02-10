@@ -7,7 +7,7 @@ config.read(".\\config\\config.ini")
 
 class ReadConfig():
     """
-    Gets properties from our config file such as operating system type, download directory, and where we want chromedriver.exe placed.
+    Gets properties from our config file such as download directory and where we want chromedriver.exe placed.
     """
 
     @staticmethod
