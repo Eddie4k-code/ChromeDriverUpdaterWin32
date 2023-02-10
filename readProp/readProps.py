@@ -22,6 +22,12 @@ class ReadConfig():
 
         return name
 
+    @staticmethod
+    def getNeededVersion():
+        version = config.get("common info", "neededVersion")
+
+        return version
+
 
     @staticmethod
     def getExtractToPath():
